@@ -1,0 +1,15 @@
+{
+    "CN": "redis.ssl.test.opensource",
+    "key": {
+      "algo": "rsa",
+      "size": 2048
+    },
+    "names": [{
+      "C": "US",
+      "ST": "Washington",
+      "L": "Seattle",
+      "O": "TEST",
+      "OU": "OPNESOURCE"
+    }],
+    "hosts": ["redis.ssl.opensource"]
+  }
