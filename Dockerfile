@@ -13,4 +13,5 @@ ADD certs/cert-key.pem /certs/cert-key.pem
 
 WORKDIR /
 ENV PYTHONUNBUFFERED=1
+ENV REDIS_AUTH=default
 CMD ["honcho", "start"]
